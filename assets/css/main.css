@@ -1749,3 +1749,11 @@ input, select, textarea {
     0% { transform: translateX(-50%); }
     100% { transform: translateX(0); }
 }
+.gray-cursive {
+    color: rgba(255, 255, 255, 0.5); /* Grayish white */
+    font-style: italic;              /* Cursive/italic */
+}
+
+.gray-cursive.center {
+    text-align: center;              /* Centered text */
+}
